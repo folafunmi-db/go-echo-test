@@ -10,3 +10,12 @@ type Data struct {
 type Payload struct {
 	Data []Data
 }
+
+func GetAll() ([]Data, error) {
+
+	return
+}
+
+func GetById(id int32) (Data, error) {
+	return
+}

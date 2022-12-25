@@ -1,6 +1,7 @@
 package main
 
 import (
+	"github.com/folafunmi-db/go-echo-test/cmd/api/handlers"
 	"github.com/labstack/echo"
 )
 
