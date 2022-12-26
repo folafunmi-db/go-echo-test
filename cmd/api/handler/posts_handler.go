@@ -13,7 +13,7 @@ func PostsHandler(c echo.Context) error {
 	data, err := service.GetAll()
 
 	if err != nil {
-		c.String(http.StatusBadGateway, "Unable to process this request")
+		return c.String(http.StatusBadGateway, "Unable to process this request")
 	}
 
 	res := make(map[string]any)
